@@ -1,9 +1,9 @@
-apiVersion: apps/v1alpha1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: CicdHelloWorld
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: CicdHelloWorld
